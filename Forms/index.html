@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <title>Contact</title>
+
+</head>
+<body>
+  <section>
+        <form name="myForm">
+           <pre>
+               <div id="ok">
+                <label style="font-family: arial;">Email Id :      </label>
+                <input required name="email" type="input" style="width:30vw;" placeholder="abcdef@gmail.com">
+              </div>
+              <div id="ok">
+                  <label style="font-family: arial;">Full Name :   </label>
+                  <input required name="fname" type="input" style="width:30vw;" placeholder="John Doe">
+              </div>
+              <div id="ok">
+                <label style="font-family: arial;">Your Review :   </label>
+                <textarea  required style="width: 20vw; height: 20vh;" placeholder="Your Review Goes Here"></textarea>
+              
+              </div>
+              <div class="submit">
+                <button id="button" onclick=" return validateForm()">Submit</button>
+            </div>
+           
+           </pre> 
+        </form>
+    </section>
+
+
+    <script>
+      function ValidateEmail(input) {
+
+         var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+         if (input.value.match(validRegex)) {
+
+           alert("Valid email address!");
+         
+           document.form1.text1.focus();
+         
+           return true;
+         
+         } else {
+         
+           alert("Invalid email address!");
+
+           document.form1.text1.focus();
+
+           return false;
+
+         }
+
+         }
+    </script>
+
+    
+</body>
+</html>

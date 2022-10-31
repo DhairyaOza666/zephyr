@@ -1,0 +1,54 @@
+body
+{
+  background: linear-gradient(125deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 75vh;
+    width: 50vw;
+    margin:8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.773), 0 6px 60px 0 rgba(0, 0, 0, 0.844);
+    border-radius: 12px ;
+    color: white;
+     
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: saturate(180%) blur(10px);
+   
+}
+
+#ok
+{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  padding-top: 30px;;
+ 
+}
+
+.submit
+{
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
