@@ -18,7 +18,9 @@ body{
   font-family: 'Nunito', sans-serif;
   border-radius: 50%;
 }
-
+a{
+  text-decoration: none;
+}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

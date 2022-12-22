@@ -1,0 +1,87 @@
+
+#apul
+{
+	color: grey;
+	position: relative;
+	left: 850px;
+	bottom: 120px;
+}
+
+#email
+{
+	font-size: 20px;
+	position: relative;
+	left: 20px
+}
+
+#psw
+{
+	font-size: 20px;
+	position: relative;
+	left: 20px
+}
+
+#psw-repeat
+{
+	font-size: 20px;
+	position: relative;
+	left: 20px
+}
+
+label
+{
+	font-size: 20px;
+	position: relative;
+	left: 20px
+}
+
+.produc
+{
+	font-size: 20px;
+	color: grey;
+	position: relative;
+	left: 700px;
+	top: : 150px;
+}
+
+.dropbtn {
+  background-color:grey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 900px;
+  top: 50px
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px grey;
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/
+.dropdown-content a:hover {background-color:grey;}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

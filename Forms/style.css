@@ -10,6 +10,15 @@ body
 
 }
 
+input
+{
+  border-radius: 10px;
+}
+textarea
+{
+  border-radius: 5px;
+}
+
 section
 {
     display: grid;
